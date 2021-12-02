@@ -8,6 +8,7 @@ const score1El = document.getElementById('score--1');
 const current0El = document.getElementById('current--0');
 const current1El = document.getElementById('current--1');
 const target = document.querySelector('.target');
+const disclaimer = document.querySelector('.disclaimer');
 
 const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
@@ -29,7 +30,7 @@ const init = function () {
   current1El.textContent = 0;
 
   diceEl.classList.add('hidden');
-  
+
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
   player0El.classList.add('player--active');
@@ -60,9 +61,8 @@ btnRoll.addEventListener('click', function () {
     if (dice !== 1) {
       // Add dice to current score
       currentScore += dice;
-      document.getElementById(
-        `current--${activePlayer}`
-      ).textContent = currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore;
     } else {
       // Switch to next player
       switchPlayer();
@@ -80,11 +80,12 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer];
 
     // 2. Check if player's score is >= 100
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 10) {
       // Finish the game
       playing = false;
       diceEl.classList.add('hidden');
-     document.querySelector('.target').style.color = '#fff';
+      document.querySelector('.target').style.color = '#fff';
+      document.querySelector('.disclaimer').style.color = '#fff';
 
       document
         .querySelector(`.player--${activePlayer}`)

@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-h4{
+h4 {
   font-size: 2rem;
   padding: 1rem;
   position: relative;
@@ -51,7 +51,6 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
-
 
 /* ELEMENTS */
 .name {
@@ -174,6 +173,16 @@ main {
   color: #c7365f;
 }
 
-.hidden{
+.hidden {
   display: none;
+}
+.disclaimer {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(14, 14, 14);
+  transform: translateX(-50%);
 }
