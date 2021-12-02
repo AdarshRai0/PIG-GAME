@@ -8,15 +8,24 @@ Pig-game(ludo) is a classic board game played between friends and family. Play t
 # GAME RULES:
 
 
-~ The game has 2 (default) to 4 players, playing in rounds
+~ The game has 2 (default) players, playing in rounds
 
 ~ In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score
 
+![02 12 2021_17 05 28_REC](https://user-images.githubusercontent.com/91651054/144415035-d6db8351-a544-41cc-bea8-ad7187cf2443.png)
+
+
 ~ BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
+
+![02 12 2021_17 06 02_REC](https://user-images.githubusercontent.com/91651054/144415050-52729e96-f69c-4715-a35c-1a85d36f7636.png)
+
 
 ~ The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn
 
 ~ The first player to reach 100 points on GLOBAL score wins the game.
+
+![02 12 2021_17 06 39_REC](https://user-images.githubusercontent.com/91651054/144415061-bdfce085-ca44-446b-afbf-1ce224463f02.png)
+
 
 
 #How to win:
