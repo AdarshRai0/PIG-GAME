@@ -3,7 +3,7 @@
 Pig-game(ludo) is a classic board game played between friends and family. Play the dice game of kings! Recall your childhood!
 
 
-Link - pig-game-adarshrai.netlify.app
+Link - https://pig-game-adarshrai.netlify.app
 
 GAME RULES:
 
