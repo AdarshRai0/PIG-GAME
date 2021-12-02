@@ -1,11 +1,11 @@
-# PIG-GAME
+
 # Pig-Game
 Pig-game(ludo) is a classic board game played between friends and family. Play the dice game of kings! Recall your childhood!
 
 
 Link - https://pig-game-adarshrai.netlify.app
 
-GAME RULES:
+#GAME RULES:
 
 
 ~ The game has 2 (default) to 4 players, playing in rounds
@@ -19,29 +19,29 @@ GAME RULES:
 ~ The first player to reach 100 points on GLOBAL score wins the game.
 
 
-How to win:
+#How to win:
 
 ~ The player with the greater value on the side of the dice wins.
 
-Set Up:
+#Set Up:
 
 This project can be tested and implemented using Microsoft VSCode and we can run using Open with live server. Working with XML can be done in Eclipse or Netbeans
 
-Contributing:
+#Contributing:
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-Developed with:
+#Developed with:
 
 This game was developed using javascript math.random that draws numbers randomly and using Document Query Selector
 
-Copyright(c) 2020
+#Copyright(c) 2021
 
 Pig-game(ludo) is a classic board game played between friends and family. Play the dice game of kings! Recall your childhood!
 
 To remain unbiased we chose not to include ourselves in the list below, but we think you’ll love us anyway.
 
-Setting up the project
+#Setting up the project
 
 Step 1 : Fork, Clone and Remote
 
@@ -49,12 +49,13 @@ Step 2 : Open project code in Visual Studio Code, Sublime Text or your favorite 
 
 Now you are ready to get started 🎉
 
-Contributing
+#Contributing
 
 Get started with this simple and easy to follow project, it doesn't matter whether you are a beginner or a professional in web-development and open source!
 We are always here to help you out and get started.
 
-Find an issue,
-then solve the issue and make a pull request to the repo. 
+#Find an issue:
+
+Then solve the issue and make a pull request to the repo. 
 If you didn't find any helpful issues for you then raise an issue and start solving the issue..
 
