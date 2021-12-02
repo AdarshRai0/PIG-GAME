@@ -7,6 +7,7 @@ const score0El = document.querySelector('#score--0');
 const score1El = document.getElementById('score--1');
 const current0El = document.getElementById('current--0');
 const current1El = document.getElementById('current--1');
+const target = document.querySelector('.target');
 
 const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
@@ -28,10 +29,12 @@ const init = function () {
   current1El.textContent = 0;
 
   diceEl.classList.add('hidden');
+  
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
+  document.querySelector('.target').style.color = '#000';
 };
 init();
 
@@ -81,6 +84,7 @@ btnHold.addEventListener('click', function () {
       // Finish the game
       playing = false;
       diceEl.classList.add('hidden');
+     document.querySelector('.target').style.color = '#fff';
 
       document
         .querySelector(`.player--${activePlayer}`)
