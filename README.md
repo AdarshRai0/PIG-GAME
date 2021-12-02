@@ -5,7 +5,7 @@ Pig-game(ludo) is a classic board game played between friends and family. Play t
 
 Link - https://pig-game-adarshrai.netlify.app
 
-#GAME RULES:
+# GAME RULES:
 
 
 ~ The game has 2 (default) to 4 players, playing in rounds
